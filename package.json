@@ -1,0 +1,14 @@
+{
+  "name": "j3ipy.dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/J3ipy/Site-perfil",
+  "author": "João Pedro <pedrosant1905@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss -i ./tailwind.css -o ./styles.css --jit --content \"./**/*.html\""
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.7"
+  }
+}
